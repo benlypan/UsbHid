@@ -1,6 +1,11 @@
 # UsbHid
 The custom USB HID host library for Android. It supports SDK Version above than or equals to 12
 
+# Usage
+```
+compile "com.benlypan:UsbHid:0.1.0"
+```
+
 # QuickStart
 ```
 UsbHidDevice device = UsbHidDevice.factory(context, vid, pid);
@@ -21,5 +26,5 @@ device.open(this, new OnUsbHidDeviceListener() {
 ```
 For detail, please read the source code.
 
-#License
+# License
 MIT
